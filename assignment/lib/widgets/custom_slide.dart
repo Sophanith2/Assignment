@@ -6,9 +6,8 @@ import 'package:smooth_page_indicator/smooth_page_indicator.dart';
 class AdvertisingBanner extends StatefulWidget {
   final GestureTapCallback? onTapSeeAll;
   final List<String> imgList = [
-    "assets/png/banner_our_partner.png",
-    "assets/png/banner_our_partner.png",
-    "assets/png/banner_our_partner.png",
+    "https://i.ytimg.com/vi/KpI-QDbrf0Y/maxresdefault.jpg",
+    "https://i.ytimg.com/vi/aMx1kStx6QQ/maxresdefault.jpg",
   ];
   // final List<SlideModel>? homeList;
   AdvertisingBanner({
@@ -34,7 +33,7 @@ class _AdvertisingBannerState extends State<AdvertisingBanner> {
           width: double.infinity,
           child: Padding(
             padding:
-                const EdgeInsets.only(top: 20, right: 20, left: 20, bottom: 20),
+                const EdgeInsets.only(top: 20, right: 0, left: 0, bottom: 20),
             child: ClipRRect(
               borderRadius: BorderRadius.circular(10),
               child: Swiper(

@@ -23,11 +23,11 @@ class Homescreen extends StatelessWidget {
             const SizedBox(
               height: 20,
             ),
-            const Text(
+            Text(
               'LogIn To Your Account',
               style: TextStyle(
                   fontSize: 40,
-                  color: Color.fromARGB(255, 186, 176, 212),
+                  color: Colors.blue[900],
                   fontWeight: FontWeight.bold),
             ),
             const SizedBox(
@@ -100,7 +100,7 @@ class Homescreen extends StatelessWidget {
                 width: double.infinity,
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(50),
-                  color: const Color(0xff9583C1),
+                  color: Colors.blue[900],
                 ),
                 child: const Center(
                     child: Text(

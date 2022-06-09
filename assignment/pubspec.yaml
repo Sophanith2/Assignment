@@ -34,6 +34,12 @@ dependencies:
   get: ^4.5.1
   page_indicator: ^0.4.1
   flutter_swiper_plus: ^2.0.4
+  modal_bottom_sheet: ^2.0.0
+  freezed_annotation: ^1.1.0
+  global_configuration: ^2.0.0-nullsafety.1
+  json_annotation: ^4.4.0
+  shared_preferences: ^2.0.13
+  build_runner: ^2.1.7
   flutter:
     sdk: flutter
 
@@ -43,6 +49,8 @@ dependencies:
   cupertino_icons: ^1.0.2
 
 dev_dependencies:
+  freezed: ^1.1.1
+  json_serializable: ^6.1.5
   flutter_test:
     sdk: flutter
 
